@@ -1,3 +1,6 @@
+/*main is a class due to the period in front*/
+/* in css, classes can be used on multiple elements to make them different from 
+the css of the general element (like h1)*/ 
 .main {
     height: 500px;
     background-image: url("img/orange.jpg");
@@ -9,7 +12,23 @@
     background-size: cover;
 }
 
+/* for elements, no special syntax needed
+For multiple elements that have same css you can just do:
+h1, h2 {
+    code;
+}
+*/
+
 h1 {
     text-align: center;
 }
 
+/* an id is used in css to make one specific instance of an element unique from 
+every other case. For example if you are making a title and there's only one you
+can use id's to give it special css that only it uses. Id's look like this:
+
+#main {
+    css code;
+}
+
+starts with hashtag */
