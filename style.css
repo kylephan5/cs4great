@@ -23,6 +23,22 @@ h1 {
     text-align: center;
 }
 
+/* This displays the li elements as horozontal */
+.navbar ul li{
+    display: inline;
+    float: right; /* makes black elements float next to eachother */
+}
+
+.navbar ul a{
+    display: block; /* allows us to use padding :D */
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+.navbar ul a img{
+    max-width: 5%;
+    height: 5%;
+}
 /* an id is used in css to make one specific instance of an element unique from 
 every other case. For example if you are making a title and there's only one you
 can use id's to give it special css that only it uses. Id's look like this:
