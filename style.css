@@ -1,50 +1,93 @@
-/*main is a class due to the period in front*/
-/* in css, classes can be used on multiple elements to make them different from 
-the css of the general element (like h1)*/ 
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
+
+/* main title page */
 .main {
     height: 500px;
-    background-image: url("img/orange.jpg");
-    padding: 200px 0px 0px ;
+    background-image: url("img/WindowsXP.jpg");
+    padding: 200px 0px 0px 0px;
+    margin: 0px;
     /* background-attachment is responsible for making the image fixed */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
 }
 
-/* for elements, no special syntax needed
-For multiple elements that have same css you can just do:
-h1, h2 {
-    code;
-}
-*/
 
 h1 {
     text-align: center;
 }
 
-/* This displays the li elements as horozontal */
-.navbar ul li{
-    display: inline;
-    float: right; /* makes black elements float next to eachother */
+#logo {
+    width: 50px;
+    height: 30px;
 }
 
-.navbar ul a{
-    display: block; /* allows us to use padding :D */
-    padding: 8px;
-    background-color: #ffffff;
+#titleLogo {
+    margin-left: 100px;
+    margin-top: -200px;
+    padding: 0;
 }
 
-.navbar ul a img{
-    max-width: 5%;
-    height: 5%;
-}
-/* an id is used in css to make one specific instance of an element unique from 
-every other case. For example if you are making a title and there's only one you
-can use id's to give it special css that only it uses. Id's look like this:
+/* navbar stuff */
 
-#main {
-    css code;
+#navdiv {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
 }
 
-starts with hashtag */
+#navigation {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.bg-transparent {
+    transition: 0.5s ease;
+}
+
+.bg-transparent.scrolled{
+    background-color: #000 !important;
+    transition: 0.5s ease;
+    z-index: 10000 !important;
+}
+
+/* nav links */
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link.scrolled {
+    color: white !important;
+}
+
+
+
+.nav-link:hover {
+    color: grey !important;
+    background-color: black;
+}
+
+/* mission */
+.mission {
+    height: 200px;
+    background-color: orange;
+}
+
+.title {
+    text-align: center;
+    padding: 80px;
+}
+
+.missionContent {
+    height: 500px;
+    background-image: url("img/colab.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
