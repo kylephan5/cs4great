@@ -25,10 +25,13 @@ h1 {
 }
 
 #titleLogo {
-    width: 100%;
+    width:auto;
+    max-width: 100%;
+    margin-top: -190px;/*
     height: 300%;
     margin-top: -350px;
     padding: 0;
+    */
 }
 
 /* navbar stuff */

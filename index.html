@@ -13,8 +13,8 @@
     <script>
         $(window).scroll(function()
         { 
-            $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
-            $('a').toggleClass('scrolled', $(this).scrollTop() > 200);
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+            $('a').toggleClass('scrolled', $(this).scrollTop() > 50);
         });
     </script>
 
@@ -23,7 +23,7 @@
     <!-- div = divider; sections off code to help organization -->
 
     <!-- navigation bar -->
-    <nav class="navbar navbar-expand-sm bg-transparent fixed-top" id="navdiv">
+    <nav class="navbar bg-transparent navbar-expand fixed-top" id="navdiv">
         
         <!-- unordered (not numbered) lists for items -->
         <ul class= "navbar-nav">
@@ -41,8 +41,8 @@
     
 
     <!--title section-->
-    <div class= "main">
-        <img id="titleLogo" src="img/CS4Good_logo.png" alt="title" height="600px">
+    <div class= "main container-fluid">
+        <img id="titleLogo" class="mx-auto d-block img-fluid" src="img/CS4Good_logo.png" alt="title" height="600px">
     </div>
 
     <!--divider for the mission statement -->
