@@ -3,7 +3,7 @@
 /* main title page */
 .main {
     height: 500px;
-    background-image: url("img/WindowsXP.jpg");
+    background-image: url("img/colab.jpg");
     padding: 200px 0px 0px 0px;
     margin: 0px;
     /* background-attachment is responsible for making the image fixed */
@@ -88,7 +88,7 @@ h1 {
 
 .missionContent {
     height: 500px;
-    background-image: url("img/colab.jpg");
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
