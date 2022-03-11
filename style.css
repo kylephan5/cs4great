@@ -4,7 +4,7 @@
 .main {
     height: 500px;
     background-image: url("img/colab.jpg");
-    padding: 200px 0px 0px 0px;
+    padding: 300px 0px 0px 0px;
     margin: 0px;
     /* background-attachment is responsible for making the image fixed */
     background-attachment: fixed;
@@ -78,12 +78,15 @@ h1 {
 /* mission */
 .mission {
     height: 200px;
-    background-color: orange;
+    background-image: url("img/orange_gradient.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .title {
     text-align: center;
-    padding: 80px;
+    padding: 70px;
+    font-family:  Courier, Arial, Helvetica, sans-serif;
 }
 
 .missionContent {
@@ -94,4 +97,10 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+
+#footer {
+    background-color: #1d1c1c;
+    height: 300px;
 }
