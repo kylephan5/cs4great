@@ -2,7 +2,7 @@
 
 /* main title page */
 .main {
-    height: 500px;
+    height: 100vh;
     background-image: url("img/colab.jpg");
     padding: 300px 0px 0px 0px;
     margin: 0px;
@@ -28,10 +28,17 @@ h1 {
     width:auto;
     max-width: 100%;
     margin-top: -190px;/*
-    height: 300%;
-    margin-top: -350px;
-    padding: 0;
+
     */
+}
+
+.col {
+    position: absolute,
+    margin: auto,
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 0,
 }
 
 /* navbar stuff */
@@ -98,9 +105,19 @@ h1 {
     background-size: cover;
 
 }
-
-
+ 
+/* footer */
 #footer {
     background-color: #1d1c1c;
     height: 300px;
+}
+
+.footheader {
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
+.footitem {
+    color: white;
+    text-align: center;
 }
