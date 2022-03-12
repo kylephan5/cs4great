@@ -27,18 +27,7 @@ h1 {
 #titleLogo {
     width:auto;
     max-width: 100%;
-    margin-top: -190px;/*
-
-    */
-}
-
-.col {
-    position: absolute,
-    margin: auto,
-    top: 0,
-    right: 0,
-    bottom: 0,
-    left: 0,
+    margin-top: -250px;
 }
 
 /* navbar stuff */
@@ -121,3 +110,18 @@ h1 {
     color: white;
     text-align: center;
 }
+
+/* social media */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+  }
