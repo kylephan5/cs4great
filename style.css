@@ -98,11 +98,11 @@ h1 {
 /* footer */
 #footer {
     background-color: #1d1c1c;
-    height: 300px;
+    height: 350px;
 }
 
 .footheader {
-    padding-top: 50px;
+    padding-top: 40px;
     color: white;
     text-align: center;
 }
@@ -112,16 +112,30 @@ h1 {
 }
 
 /* social media */
+
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
+
+    font-size: 30px !important;
+    width: 67px;
+    text-align: center !important;
     text-decoration: none;
+    border-radius: 50%;
+
   }
+
+.fa-instagram {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
   
 
-  .fa:hover {
+.fa:hover {
     opacity: 0.7;
+    color: white;
     text-decoration: none;
-  }
+}
+
+
+
