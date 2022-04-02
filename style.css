@@ -64,7 +64,7 @@ h1 {
 /* mission */
 .mission {
     height: 200px;
-    background-image: url("img/orange.jpg");
+    background-color: #008430;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -79,7 +79,7 @@ h1 {
 
 .missionContent {
     height: 500px;
-    
+    background-color: #0C2340;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
