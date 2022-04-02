@@ -85,6 +85,15 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
 
+
+.calendar{
+	padding: 80px;
+}
+
+.eventshtml{
+	background-image: url("img/dome.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
  
 /* footer */
