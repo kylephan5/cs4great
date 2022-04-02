@@ -3,7 +3,7 @@
 /* main title page */
 .main {
     height: 100vh;
-    background-image: url("img/colab.jpg");
+    background-image: url("img/gold.jpeg");
     padding: 300px 0px 0px 0px;
     margin: 0px;
     /* background-attachment is responsible for making the image fixed */
@@ -64,7 +64,7 @@ h1 {
 /* mission */
 .mission {
     height: 200px;
-    background-image: url("img/orange_gradient.png");
+    background-image: url("img/orange.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -76,11 +76,6 @@ h1 {
     
 }
 
-.title > * {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typingAnim 5s steps(50);
-  }
 
 .missionContent {
     height: 500px;
