@@ -8,15 +8,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!--makes background change color on scroll-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <title>Events</title>
+    <!-- title of the webpage -->
+    <title>CS4Good</title>
     <script>
         $(window).scroll(function()
         { 
             $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
+            $('a').toggleClass('scrolled', $(this).scrollTop() > 200);
         });
     </script>
+
 </head>
-<body>
+<body class="eventshtml">
     <!-- navigation bar -->
     <nav class="navbar navbar-expand-sm bg-transparent fixed-top" id="navdiv">
         
@@ -33,15 +36,10 @@
         </ul>
         
     </nav>
-
-    <!-- calendar -->
-    <div>
-
-    </div>
-
-    <!-- footer -->
-    <div>
-
-    </div>
+    <div class="calendar" align="center">
+		<iframe src="https://calendar.google.com/calendar/embed?src=cs4good%40nd.edu&ctz=America%2FNew_York" style="border: 60" width="600" height="400" frameborder="500" scrolling="yes"></iframe>
+   </div>
+   
 </body>
+
 </html>
