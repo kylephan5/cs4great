@@ -3,7 +3,7 @@
 /* main title page */
 .main {
     height: 500px;
-    background-image: url("img/WindowsXP.jpg");
+    background-color: #C99700;
     padding: 200px 0px 0px 0px;
     margin: 0px;
     /* background-attachment is responsible for making the image fixed */
@@ -27,7 +27,7 @@ h1 {
 #titleLogo {
     width: 100%;
     height: 300%;
-    margin-top: -350px;
+    margin-top: -320px;
     padding: 0;
 }
 
@@ -58,7 +58,7 @@ h1 {
 /* nav links */
 
 .nav-link {
-    color: black !important;
+    color: white !important;
 }
 
 .nav-link.scrolled {
@@ -67,15 +67,15 @@ h1 {
 
 
 
-.nav-link:hover {
-    color: grey !important;
-    background-color: black;
+.nav-item:hover {
+    color: white !important;
+    background-color: #808080;
 }
 
 /* mission */
 .mission {
     height: 200px;
-    background-color: orange;
+    background-color: #179A64;
 }
 
 .title {
@@ -85,7 +85,7 @@ h1 {
 
 .missionContent {
     height: 500px;
-    background-image: url("img/colab.jpg");
+    background-color: #202A44;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
