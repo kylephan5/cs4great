@@ -3,7 +3,7 @@
 /* main title page */
 .main {
     height: 100vh;
-    background-image: url("img/gold.jpeg");
+    background-color: #0C2340;
     padding: 300px 0px 0px 0px;
     margin: 0px;
     /* background-attachment is responsible for making the image fixed */
@@ -64,7 +64,7 @@ h1 {
 /* mission */
 .mission {
     height: 200px;
-    background-color: #008430;
+    background-color: #C99700;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -84,9 +84,33 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 60px 50px;
+}
 
+.missionContent p {
+    color: white;
+    font-family:  Courier, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 15px 0px 15px 10px;
+}
 
-.calendar{
+#ourmission {
+    padding-top: 30px;
+}
+
+#ourmission b {
+    color: 	#C99700;
+}
+
+#whoweare b {
+    color: #C99700;
+}
+
+#whatwedo b {
+    color: #C99700;
+}
+
+.calendar {
 	padding: 80px;
 }
 
@@ -95,11 +119,23 @@ h1 {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
- 
+
+/* eboard */
+
+.eboard {
+    background-color: #0C2340;
+}
+.eboard h1 {
+    background-color: #C99700;
+}
+
+.eboardlist {
+    margin: 0px;
+}
 /* footer */
 #footer {
     background-color: #1d1c1c;
-    height: 350px;
+    height: 300px;
 }
 
 .footheader {
@@ -137,6 +173,5 @@ h1 {
     color: white;
     text-decoration: none;
 }
-
 
 
